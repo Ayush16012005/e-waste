@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="footer_header.css">
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="ayush.jpg" alt=""></div>
+            
+        <ul class="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <!-- <li><a href="blog.html">Blog</a></li> -->
+            <li><a href="contact.html">Contact</a></li>
+         </ul>
+         <div class="header-btn">
+            <div class="nameHolder"></div><br>
+            <!-- <a href="" class="sign-up">Sign-up</a> -->
+           <div class="log-out"> <a href="front.html" class="log out">Log-out</a></div>
+        </nav>
+        </header>     
+        <section class="home1">
+            <div class="home-img">
+                <img src="phot.avif" alt="">
+            </div>
+            <div class="home-content">
+            <h1>Hi, It's <span>Ayush</span></h1>
+                <h3 class="typing-text">I'm a <span></span></h3>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo soluta ipsam, dignissimos itaque distinctio quam dolore ea laudantium minima ipsa tempore, culpa voluptate?</p> -->
+            <div class="social-icons">
+                <a href="https://www.instagram.com/16ayush_singh/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/Ayush16012005"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100073393369852"><i class="fa-brands fa-facebook"></i></a>
+                <a href="www.linkedin.com/in/ayush-singh-383b6924b"><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+    
+            </div>
+           
+            </div>
+        </section>     
+    <footer>
+        <div class="row">
+            <div class="col"><img class="f_logo" width="100px" src="LOGO1.jpg" alt=""> 
+            <p>Subscribe <a href="https://youtube.com/@shradhakd?si=tNedKBArVVko2LDr">XXX</a> Youtube channel to watch more video on E-Waste. </p></div>
+            <div class="col">
+                <H3>OFFICE</H3>
+                <p>lpu</p>
+                <p>Jalandhar,Punjab</p>
+                <p>India</p>
+                <p><a href="mailto:ayush101singh@gail.com">ayush101singh@gail.com</a></p>
+                <p>9198xxxxxx</p>
+            </div>
+            
+        </div>
+    </footer>
+</body>
+<script>
+    const params = new URLSearchParams(window.location.search)
+    const name =  params.get('name')
+    const nameholder = document.querySelector('.nameHolder')
+    nameholder.innerHTML = name    
+
+</script>
+</html>

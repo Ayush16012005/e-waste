@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SERVICES</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="footer_header.css">
+    <link rel="stylesheet" href="services.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="ayush.jpg" alt=""></div>
+            
+        <ul class="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <!-- <li><a href="blog.html">Blog</a></li> -->
+            <li><a href="contact.html">Contact</a></li>
+         </ul>
+         <div class="header-btn">
+            <div class="nameHolder"></div><br>
+            <!-- <a href="" class="sign-up">Sign-up</a> -->
+           <div class="log-out"> <a href="front.html" class="log out">Log-out</a></div>
+        </nav>
+        </header>  
+        <div class="section">
+            <div class="title"><h1>Our Services</h1></div>
+            <div class="services">
+                <div class="card">
+                    <div class="icon">
+                        <i class="fa-solid fa-calendar"></i>
+                        
+                    </div>
+                    <h2>Planning</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, ullam ut totam eius beatae id dolor laudantium obcaecati, dolorem, ea ad. Nisi error aliquid minus saepe odit debitis eligendi quasi et voluptatem !</p>
+                </div>
+                <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h2>Renovation</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, ullam ut totam eius beatae id dolor laudantium obcaecati, us iste incidunt quisquam ipsam amet sed totam quos, facere quod laboriosam maxime voluptate tempore. Sequi, culpa! Sapiente dolorum eveniet totam voluptatibus debitis!</p>
+                </div>
+                <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h2>Support</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, ullam ut totam eius beatae is iste incidunt quisquam ipsam amet sed totam quos, facere quod laboriosam maxime voluptate tempore. Sequi, culpa! Sapiente dolorum eveniet totam voluptatibus debitis!</p>
+                </div>
+            </div>
+        </div>          
+    <footer>
+        <div class="row">
+            <div class="col"><img class="f_logo" width="100px" src="LOGO1.jpg" alt=""> 
+            <p>Subscribe <a href="https://youtube.com/@shradhakd?si=tNedKBArVVko2LDr">XXX</a> Youtube channel to watch more video on E-Waste. </p></div>
+            <div class="col">
+                <H3>OFFICE</H3>
+                <p>lpu</p>
+                <p>Jalandhar,Punjab</p>
+                <p>India</p>
+                <p><a href="mailto:ayush101singh@gail.com">ayush101singh@gail.com</a></p>
+                <p>9198xxxxxx</p>
+            </div>
+            
+        </div>
+    </footer>
+</body>
+<script>
+    const params = new URLSearchParams(window.location.search)
+    const name =  params.get('name')
+    const nameholder = document.querySelector('.nameHolder')
+    nameholder.innerHTML = name    
+
+</script>
+</html>

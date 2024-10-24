@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOW IT IS GENERATED</title>
+    <link rel="stylesheet" href="footer_header.css">
+    <link rel="stylesheet" href="generated.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="ayush.jpg" alt=""></div>
+            
+        <ul class="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <!-- <li><a href="blog.html">Blog</a></li> -->
+            <li><a href="contact.html">Contact</a></li>
+         </ul>
+         <div class="header-btn">
+            <div class="nameHolder"></div><br>
+            <!-- <a href="" class="sign-up">Sign-up</a> -->
+           <div class="log-out"> <a href="front.html" class="log out">Log-out</a></div>
+        </nav>
+        </header>  
+        
+        <div class="main">
+            <p><h1>HOW E-WASTE IS GENERATED</h1></p>
+            <div class="upperp">
+                <div class="fp"><img  src="gen1.png" alt=""></div>
+                <div class="sp"><img  src="gen2.webp" alt=""></div>
+                <div class="tp"><img  src="gen3.png" alt=""></div>
+            </div>
+            <div class="con">
+                <div class="textf">
+                    <p>Electronic waste, or e-waste, is generated when electronic devices are discarded after they are no longer useful. This can happen when products break or become obsolete. The rapid expansion of technology and a consumption-driven society are contributing to the large amount of e-waste being created.</p> <br>
+                       <p> Every year millions of electrical and electronic devices are discarded as products break or become obsolete and are thrown away. These discarded devices are considered e-waste and can become a threat to health and the environment if they are not disposed of and recycled appropriately.
+                        </p>
+                </div>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Nr0igorjIKI?si=LdA7Lu4NR1cnvqRc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                  
+                
+            </div>
+        </div>          
+    <footer>
+        <div class="row">
+            <div class="col"><img class="f_logo" width="100px" src="LOGO1.jpg" alt=""> 
+            <p>Subscribe <a href="https://youtube.com/@shradhakd?si=tNedKBArVVko2LDr">XXX</a> Youtube channel to watch more video on E-Waste. </p></div>
+            <div class="col">
+                <H3>OFFICE</H3>
+                <p>lpu</p>
+                <p>Jalandhar,Punjab</p>
+                <p>India</p>
+                <p><a href="mailto:ayush101singh@gail.com">ayush101singh@gail.com</a></p>
+                <p>9198xxxxxx</p>
+            </div>
+            
+        </div>
+    </footer>
+</body>
+<script>
+    const params = new URLSearchParams(window.location.search)
+    const name =  params.get('name')
+    const nameholder = document.querySelector('.nameHolder')
+    nameholder.innerHTML = name    
+
+</script>
+</html>

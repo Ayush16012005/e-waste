@@ -1,0 +1,160 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    background-color: rgb(0, 255, 191);
+}
+nav{
+    display: flex;
+}
+.logo{
+    width: 12%;
+}
+.logo img{
+    width: 84px;
+    padding: 4%;
+    padding-left: 33%;
+}
+.navbar {
+    height: 70px;
+    padding-left: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navbar li{
+    list-style: none;
+    padding: 0 23px
+
+}
+.navbar li a{
+    color: black;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+.navbar a:hover{
+background-color: chartreuse;
+text-decoration: underline yellow;
+padding: 10px;
+padding-left: 0px;
+
+}
+.log-out{
+    display: flex;
+    width: 200px;
+    padding: 2%;
+}
+.navbar a:active{
+background-color: white;
+text-decoration: underline red;
+padding: 10px;
+padding-left: 0px;
+
+}
+.nameHolder{
+    padding-top: 10%;
+}
+.header-btn a{
+padding: 10px 20px;
+color: blue;
+font-weight: 600;
+font-size: 1.7rem;    
+padding-left: 40%;
+}
+.header-btn{
+padding-left: 5%;
+width: 25%;
+display: flex;
+}
+
+.header-btn a:hover{
+background-color: wheat;
+text-decoration: underline yellow;
+padding: 10px;
+padding-left: 0px;
+} */
+
+.photo{
+    padding-left: 2%;
+    padding-top: 6%;
+}
+.photo img{
+    width: 49%;
+    height: 260px;
+}
+main{
+    display: flex;
+}
+.text{
+    width: 70%;
+    background-color: #20ff00;
+    color: black;
+    padding: 2% 2%;
+    font-size: 170%;
+    text-align: center;
+}
+.link{
+    width: 18%;
+    background-color: #20ff00;
+    color: black;
+    padding-right: 4%;
+    border: solid black;
+    padding-left: 3%;
+    padding-bottom: 2%;
+    padding-top: 4%;
+    text-align: center;
+}
+.nlink{
+    line-height: 2em;
+}
+.nlink a{
+    text-decoration: none;
+
+}
+.body{
+    display: flex;
+    background-color: #20ff00;
+}
+.main_text{
+    display: inline-block;
+    font-size: 170%;
+    width: 60%;
+    padding: 3% 3%;
+    background-color: #20ff00;
+}
+.bphoto{
+    display: inline-block;
+    width: 39%;
+    padding-top: 5%;
+}
+.bphoto img{
+    width: 450px;
+    height: 450px;
+}
+.last_p{
+    display: flex;
+}
+.las_p{
+    width: 700px;
+     height: 480px;
+}
+
+/* footer{
+    bottom: 0;
+    background: linear-gradient(to right, #00093c,#2d0b00);
+    color: #fff;
+    padding: 50px 0 30px;
+    
+   }
+   .row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+   } */

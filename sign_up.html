@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><sign-up></FORM></title>
+    <style>
+        
+        
+        div{
+     width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #dde1e7;
+    text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+    <form >
+        <fieldset>
+            <legend><h2>SIGN-UP Form</h2></legend>
+             <label for="name">Name</label>
+             <input type="text" id="name" placeholder="Name" name="my name" required="required"><br><br>
+             Email: <input type="text" name="myemail" placeholder="Email" required="required"><br><br>
+             Password: <input type="password" name="mypassword" placeholder="Password" required="required"> <br><br>
+             Gender: Male<input type="radio" name="mygender">
+             Female<input type="radio" name="mygender"> 
+             other<input type="radio" name="mygender"> <br>
+             
+                    <br><br>
+            <label for="country">Country</label>
+            <select  id="country" required="required">
+                <option >select</option>
+                <option >India</option>
+                <option >Thailand</option>
+                <option >USA</option>
+            </select><br><br>
+         Date: <input type="date" name="mydate" required="required"> <br><br>
+            <button type="submit" value="submit now" >submit</button>
+            <input type="reset" value="reset now" >
+
+        </fieldset>
+    </form>
+</div>
+
+</body>
+<script>
+    const form = document.querySelector('form')
+    form.addEventListener('submit',(e)=>{
+        e.preventDefault()
+        console.log(e)
+        const name = document.querySelector('#name')
+        window.location.href=`/home.html?name=${name.value}`
+    })
+</script>
+</html>

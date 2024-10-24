@@ -1,0 +1,57 @@
+.main{
+    padding-top: 7%;
+    margin-top: 2%;
+    padding: 1%;
+    display: inline-block;
+    width: 97%;
+    background-color: wheat;
+    justify-content: center;
+    text-align: center;
+}
+.main p h1{
+    text-align: center;
+    justify-content: center;
+    padding-top: 6%;
+}
+h1{
+    padding-top: 7%;
+}
+.upperp{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-left: 2%;
+
+}
+.upperp img{
+    width: 100%;
+    height: 80%;
+    
+}
+.fp{
+    width: 30%;
+    padding: 2%;
+}
+
+.sp{
+    width: 30%;
+    padding: 2%;
+}
+.tp{
+    width: 30%;
+    padding: 2%;
+}
+.con{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.textf{
+    width: 70%;
+    background-color: bisque;
+    padding: 2%;
+    font-size: 150%;
+}
+.video{
+    padding: 1%;
+}
